@@ -1,0 +1,102 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    /* --color1: #222222;*/
+    --color1: #008CBA;
+    --color2: #555555;
+    --color3: #4CAF50;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    font-size: 1.6rem;
+    /*background-color: var(--color1);
+    color: var(--color2);*/
+    font-family: monospace;
+}
+
+h1{
+    display: inline-block;
+    color: var(--color1)
+    
+
+}
+hgroup small{
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: .2rem;
+    margin-left: 1rem;
+}
+
+nav{
+    margin-left: -4rem;
+}
+
+ul{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+
+li{
+    list-style: none;
+    display: inline;
+
+}
+
+li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    
+}
+
+.s1 a{
+    background-color: var(--color1);
+    color:white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-right: .8rem;
+}
+
+.s2 a{
+    background-color: var(--color3);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-right: .8rem;
+}
+
+.s3 a{
+    background-color: var(--color2);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+table {
+    border: 1px solid blue;
+    border-collapse: separate;
+    
+}
+
+th, td {
+    border: 1px solid blue;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td span {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px;
+    display: block;
+}

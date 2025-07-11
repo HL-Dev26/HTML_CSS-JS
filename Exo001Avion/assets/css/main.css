@@ -1,0 +1,109 @@
+body{
+background-color: #222222;
+color: #FFFFFF;
+font-family: Verdana;
+margin-left: 0%;
+margin-right: 0%;
+}
+img{
+    width: 100px;
+    
+}
+.En-téte{
+    display: flex;
+    justify-content: space-between;
+    background-color: #224422;
+    align-items: center;
+}
+ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+li{
+    list-style: none;
+    border: 1px solid #0f500d;
+    padding: 1px;
+    margin: 1px;
+    width: 120px;
+    margin: 0px;
+}
+li:hover{
+    background-color: #477a47;
+}
+li:focus{
+    background-color: #477a47;
+}
+h1{
+    color: #CCFFCC;
+}
+.Actu{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+    
+}
+h2{
+    color: #CCFFCC;
+}
+p{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.Avion{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+}
+.Gallerie{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+}    
+th{
+    background-color: #224422;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+td{
+    border: none;
+}
+tbody tr:nth-child(odd) {
+  background-color:  #224422;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #477a47;
+}
+table {
+  background-color:  #224422;
+  text-align: center;
+}
+.tabl{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.imgavion img{
+    width: 230px;
+    height: 150px;
+    
+}
+.imgavion {
+    flex-wrap: wrap;
+    display: flex;
+    gap:10px;
+}
+
+.imgavion div{
+
+    width:250px;
+    text-align: center;
+}
+
+a{
+    color: #CCCCFF;
+}
+footer{
+    text-align: center;
+}

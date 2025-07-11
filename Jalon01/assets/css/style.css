@@ -1,0 +1,88 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    --color1: #cfcccc;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    /*background-color: var(--color1);*/
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    width: 70rem;
+    margin: 0 auto ;
+}
+
+.top{
+    background-color: chocolate;
+    display: flex;
+    border-radius: 3rem;
+    padding: 3rem;
+    box-shadow: 2px 5px 5px rgb(128, 123, 123);
+    color: var(--color1);
+}
+
+.info{
+    height: 30rem;
+    width: 45rem;
+}
+
+.descri{
+    font-size: 1.8rem;
+    font-style: italic;
+    margin: 0 0;
+}
+
+.nom{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.métier{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.age{
+    font-size: 1.8rem;
+}
+
+span{
+    padding-right: 2rem;
+}
+
+#s1{
+    
+    color: white;
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+    border: .5rem solid white;
+    border-radius: 80px;
+}
+
+.bottom{
+    color: black;
+    padding: 1.5rem 3rem ;
+   /* border: .1rem solid rgb(241, 241, 241);*/
+    border-radius: 30px;
+    margin-top: 3rem;
+    box-shadow: 2px 5px 5px rgb(218, 217, 217);
+
+}

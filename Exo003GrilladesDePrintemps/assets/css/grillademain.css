@@ -1,0 +1,96 @@
+body {
+   display: grid;
+   grid-template-areas: 
+       "header header header"
+       "nav article article"
+       "nav footer footer ";
+   grid-template-columns: 33%;
+   align-items: stretch;
+   gap: 10px;
+   height: 100vh;
+}
+
+header{
+    grid-area: header;
+    display: grid;
+    grid-template-areas: "h1 aside";
+    grid-template-columns: 7fr 1fr;
+    grid-gap: 10px;
+}
+
+h1{
+    grid-area: h1;
+    background-color: #BBCCFF;
+    margin: 0;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #BBCCFF;
+    padding:1em;
+    margin: 0;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #BBCCFF;
+    padding: 20px;
+}
+
+main {
+    grid-area: article;
+    padding:10px;
+    background-color: #BBCCFF;
+}
+
+.principal {
+    height: 33em;
+    padding-bottom: 3em;
+}
+
+article {
+
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+}
+
+section{
+
+    width: 38%;
+
+}
+
+article h2 {
+
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Sections */
+article section {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #BBCCFF;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    body {
+        grid-template-areas: 
+            "header"
+            "nav"
+            "article"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+}

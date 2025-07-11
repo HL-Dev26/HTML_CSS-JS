@@ -1,0 +1,82 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    /* --color1: #222222;*/
+    --colorDeFond: #5C94FC;
+    --color1: #4976C9;
+    --color2: #375897;
+    --color3: #243B64;
+    --color4: #121D32;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colorDeFond);
+    /*font-size: 1.6rem;
+    color: var(--color2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    height: 100vh;
+    
+    
+    
+    
+}
+
+main{
+    
+    border: 5px solid black;
+    width: 71.8%;
+    
+}
+
+
+.s1{
+    height: 15rem;
+    width: 25rem;
+    background-color: var(--color1);
+    border: 0.5rem solid black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    
+}
+
+
+
+.s2{
+    height: 15rem;
+    width: 50rem;
+    background-color: var(--color2);
+    border: 0.5rem solid black;
+    border-bottom: none;
+    border-left: none;
+
+}
+    
+.s3{
+    height: 15rem;
+    width: 75rem;
+    background-color: var(--color3);
+    border: 0.5rem solid black;
+    border-bottom: none;
+    border-left: none;
+}
+
+.s4{
+    height: 15rem;
+    width: 100rem;
+    background-color: var(--color4);
+    border: 0.5rem solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}

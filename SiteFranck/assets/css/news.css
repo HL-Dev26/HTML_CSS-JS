@@ -1,0 +1,29 @@
+body{
+    display:grid;
+    grid-template-areas: 
+    "Header Header Header Header Header Header Header Ads"
+    "Nav Nav Article Article Article Article Article Article"
+    "Nav Nav Article Article Article Article Article Article"
+    "Nav Nav Article Article Article Article Article Article"
+    "Nav Nav Article Article Article Article Article Article"
+    "Nav Nav Article Article Article Article Article Article"
+    "Nav Nav Article Article Article Article Article Article"
+    "Nav Nav Article Article Article Article Article Article"
+    "Nav Nav Footer Footer Footer Footer Footer Footer ";
+    grid-template-columns: 30em;
+    align-items: stretch;
+
+}
+h1{
+    
+    grid-template: "Header";
+    grid-template-columns: 7fr 1fr;
+    background-color: aquamarine;
+}
+aside{
+    grid-template: "ads";
+    background-color: blue;
+}
+footer{
+    grid-template: "Footer";
+}

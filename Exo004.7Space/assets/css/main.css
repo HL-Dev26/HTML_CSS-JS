@@ -1,0 +1,61 @@
+/* :root : Déclarer les variables CSS */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    /*background-color: var(--color1);
+    font-size: 1.6rem;
+    color: var(--color2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    margin: 0;
+    height: 100vh;
+    background-image: url('../media/images/snow-black.gif');
+    background-repeat: repeat;
+
+    
+   
+}
+section{
+    height: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1{
+    width : 10rem;
+    height : 10rem;
+    background : white;
+    -moz-border-radius : 25px;
+    -webkit-border-radius : 25px;
+    border-radius : 5rem;  /* ou 50% */ 
+    margin-right: 20rem;
+    margin-top: 40rem;
+
+}
+
+.s2{
+     width : 17rem;
+    height : 17rem;
+    background : white;
+    -moz-border-radius : 25px;
+    -webkit-border-radius : 25px;
+    border-radius : 9rem;  /* ou 50% */ 
+    }
+
+.s3{
+    width : 5rem;
+    height : 5rem;
+    background : white;
+    -moz-border-radius : 25px;
+    -webkit-border-radius : 25px;
+    border-radius : 3rem;  /* ou 50% */ 
+    margin-left: 25rem;
+    margin-bottom: 24rem;
+}

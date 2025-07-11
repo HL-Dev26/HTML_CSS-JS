@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+h1{
+background-color: #E64B3C;
+color: #FFFFFF;
+font-size: 250%;
+text-align: center;
+padding: 50px ;
+margin: 0;
+}
+h2{
+    color: #E64B3C;
+}
+.chaton{ 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 600;
+
+
+    
+    
+}
+img{
+    width: 400px;
+}
+figure{
+background-color: #EBF0F0;
+width: 400px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 5px;
+
+}
+

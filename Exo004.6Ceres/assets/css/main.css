@@ -1,0 +1,93 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    /* --color1: #222222;*/
+    --color1: #e0e2e8;
+    --color2: #36A23E;
+    --color3: #FF6633;
+    --color4: #CC0066;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    background-color: var(--color1);
+    font-size: 1.6rem;
+    /*color: var(--color2);*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ header{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+ }
+
+ header span:first-child{
+    color: var(--color2);
+    border: 0.1rem solid var(--color2);
+    border-right: none;
+    padding: 0.6rem;
+
+ }
+
+ header span:nth-child(2){
+    color: var(--color3);
+    border: 0.1rem solid var(--color3);
+    border-left: none;
+    border-right: none;
+    padding: 0.6rem;
+    
+    
+
+ }
+
+  header span:nth-child(3){
+    color: var(--color4);
+    border: 0.1rem solid var(--color4);
+    border-left: none;
+    border-right: none;
+    padding: 0.6rem;
+    
+ }
+
+  header span:nth-child(4){
+    color: var(--color2);
+    border: 0.1rem solid var(--color2);
+    border-left: none;
+    border-right: none;
+    padding: 0.6rem;
+ }
+
+ header span:last-child{
+    color: var(--color3);
+    border: 0.1rem solid var(--color3);
+    border-left: none;
+
+    padding: 0.6rem;
+ }
+
+ main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+ }
+
+ footer{
+    margin-left: 30rem;
+    margin-right: 30rem;
+    text-align: center;
+    border-top: 1px solid rgb(155, 153, 153);
+ }
+
+ a{
+    color: var(--color2)
+ }

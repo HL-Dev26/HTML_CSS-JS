@@ -1,0 +1,127 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    /* --color1: #222222;*/
+    --color1: #335624;
+    --color2: #8dc26f;
+    --color3: #47673a;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    background-color: var(--color1);
+    font-size: 1.6rem;
+    /*color: var(--color2);*/
+    font-family: Arial;
+
+}
+
+main{
+    max-width: 140rem;
+    margin: 0 auto;
+
+    
+}
+h1{
+    color:white;
+    font-size: 6rem;
+    
+}
+.intro{
+    color:white;
+    margin-right: 55%;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1.5rem; 
+    margin-bottom: 1rem; 
+}
+a:hover{
+    background-color: var(--color2);
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+#first{
+    background-color: #8dc26f;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: .1rem solid var(--color2);
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    background-color: var(--color3);
+    font-size: 1.3rem;
+}
+
+img{
+    width: 32rem;
+    height: 32rem;
+    border-radius: 15px;
+
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /*display: grid;
+    align-content: start;
+    justify-content: space-between;
+    grid-template-areas:
+    "s1 s2 s3 s4"
+    "s5 s6 s7 s8";*/
+}
+
+
+figure{
+    background-color: white;
+    font-family: 'PT sherif', serif;
+    
+    margin: 3rem 3rem 3rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 57rem;
+    width: 32rem;
+    border-radius: 15px;
+
+
+}
+
+figure p{
+    color:#666;
+    font-size: 1.9rem;
+    margin: 1.5rem 3rem;
+    padding-bottom: 1.5rem;
+}
+figcaption{
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+
+.panier{
+    display: flex;
+    justify-content: space-around;
+    
+}
+span{
+    color: var(--color1);
+    font-weight: bold;
+    font-size: 3rem;
+}

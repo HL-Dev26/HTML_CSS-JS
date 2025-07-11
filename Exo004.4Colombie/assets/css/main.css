@@ -1,0 +1,65 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    /* --color1: #222222;*/
+    --color1: #FCD116;
+    --color2: #003893;
+    --color3: #CE1126;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+    
+}
+body{
+    margin: 0;
+}
+
+main{
+    /*background-color: var(--color1);
+    font-size: 1.6rem;
+    color: var(--color2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    display: grid;
+    grid-template-areas: 
+    "s1 s1 s1"
+    "s1 s1 s1"
+    "s2 s2 s2"
+    "s3 s3 s3";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    height: 85vh;
+
+}
+
+.s1{
+    grid-area: s1;
+    background-color: var(--color1);
+
+    
+}
+
+.s2{
+    grid-area: s2;
+    background-color: var(--color2);
+
+}
+
+.s3{
+    grid-area: s3;
+    background-color: var(--color3);
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    height: 15vh;
+}
+
+

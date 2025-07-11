@@ -1,0 +1,37 @@
+body{
+background-image: url("../media/images/css-16-bg.webp");
+height: 100%;
+}
+html{
+    height: 100vh;
+}
+main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.systeme{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+
+    
+}
+
+img[title="planete1"]{
+    width: 10%;
+    height: 10%;
+}
+
+img[title="planete2"]{
+    width: 20%;
+    height: 20%;
+}
+
+img[title="planete3"]{
+    width: 30%;
+    height: 30%;
+}
+

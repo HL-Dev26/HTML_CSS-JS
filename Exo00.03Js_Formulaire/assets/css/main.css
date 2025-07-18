@@ -1,6 +1,6 @@
 /* :root : Déclarer les variables CSS */
 :root {
-     --color1: #222222;
+    
 }
 
 *{
@@ -16,4 +16,7 @@ body{
     /*background-color: var(--color1);
     color: var(--color2);
     font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    width: 80rem;
+    margin: 0 auto;
+
 }

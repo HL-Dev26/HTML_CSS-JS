@@ -1,0 +1,39 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    /* --color1: #222222;*/
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+h1{
+    margin-top: 0;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70rem;
+    margin: 0 auto;
+    border: .1rem solid blue;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+button{
+    border: .1rem solid blue;
+    color: blue; 
+    padding: .4rem .3rem .4rem .3rem;
+    
+}
+
+span{
+    color: blue;
+}
+
+label{
+    padding: 0 .5rem 0 .5rem;
+}

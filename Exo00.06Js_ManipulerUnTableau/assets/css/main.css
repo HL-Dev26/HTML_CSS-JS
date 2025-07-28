@@ -1,0 +1,23 @@
+/* :root : Déclarer les variables CSS */
+:root {
+    --color1: #10718ae1;
+    --color2: 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    background-color: var(--color1);
+    font-size: 1.6rem;
+    color: var(--color2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80rem;
+    margin: 0 auto;
+    border: .1rem solid black
+}

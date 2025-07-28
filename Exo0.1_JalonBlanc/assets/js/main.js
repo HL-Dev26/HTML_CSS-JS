@@ -13,14 +13,15 @@ function validerSaisieName(event){
     if (username.value.length < 3) {
         result.textContent = "Le nom d'utilisateur est trop court (3 caractéres minimum)";    
     }
-    else if (password1.value.lenght <= 12){
+    else if (password1.value.length < 12){
         result.textContent = "Le mot de passe est trop court (12 caractéres minimum)";
     }
-    else if (password1 !== password2){
+    else if (password1.value !== password2.value){
         result.textContent = "Les mots de passe ne correspondent pas";
     }
     else{
         result.textContent = "Le formulaire est valide !";
+        document.body.style.backgroundColor = "green";
     }
 
 }

@@ -3,6 +3,7 @@ const myHour = document.getElementById('myHour')
 const afficher = document.getElementById('txt')
 const calculate = document.getElementById('calculate')
 const result = document.getElementById('result')
+const result1 = 
 let today;
 
 function calculateDate(){
@@ -19,7 +20,7 @@ function calculateDate(){
         result.textContent = "ERROR : veulliez entrer la date d'aujourd'hui";
     }
 
-    result.innerHTML = "Aujourd'hui nous somme le <span>" + userDate + "</span> , l'heure courante est : <span>" + userHour + "</span>";
+    result1.innerHTML = "Aujourd'hui nous somme le <span>" + userDate + "</span> , l'heure courante est : <span>" + userHour + "</span>";
 
 }
 
